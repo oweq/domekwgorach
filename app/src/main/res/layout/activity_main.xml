@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domek w górach"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/obraz"
+        android:layout_height="220dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonLike"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="POLUB"
+            android:textColor="@color/white"
+            android:background="@color/teal" />
+        <Button
+            android:id="@+id/ButtonDelete"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="USUŃ"
+            android:textColor="@color/white"
+            android:background="@color/teal" />
+        <Button
+            android:id="@+id/ButtonSave"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="ZAPISZ"
+            android:textColor="@color/white"
+            android:background="@color/teal" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/TextViewLikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 polubień"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        android:textAlignment="textEnd"
+/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opis"
+        android:textColor="@color/black"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych"
+        android:textColor="@color/gray"
+        android:paddingLeft="5dp"/>
+</LinearLayout>
